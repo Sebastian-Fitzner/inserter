@@ -1,0 +1,22 @@
+{{! ---
+component: c-test-case
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- testCaseContextClass {String} [default] - Just pass a string
+- testCaseClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+<div class="c-test-case{{#if testCaseContextClass}}--{{testCaseContextClass}}{{else}}--default{{/if}}{{#if testCaseClasses}} {{testCaseClasses}}{{/if}}"
+     data-css="c-test-case"
+     data-js-module="test-case"
+     data-js-options='{
+     	{{#each testCaseJsOptions}}"{{optionsKey}}": {{#unless optionsObject}}"{{/unless}}{{{optionsValue}}}{{#unless optionsObject}}"{{/unless}}{{#if @last}}{{else}}, {{/if}}{{/each}}
+     }'>
+</div>

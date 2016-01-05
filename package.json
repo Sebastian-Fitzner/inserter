@@ -1,0 +1,21 @@
+{
+  "name": "inserter",
+  "version": "0.0.1",
+  "description": "Insert pre-defined strings or files into specific sections of other files by using comments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Insert",
+    "import"
+  ],
+  "author": "Sebastian Fitzner",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "glob": "^6.0.3",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7"
+  }
+}
