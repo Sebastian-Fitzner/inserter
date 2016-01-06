@@ -1,7 +1,7 @@
-/*** @INSERT js-import */
+/*** @INSERTPOINT :: @ref:js-import */
 
 $(document).ready(function () {
 
-	/*** @INSERT js-init */
+	/*** @INSERTPOINT :: @ref:js-init */
 
 });
