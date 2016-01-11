@@ -1,7 +1,17 @@
 {{#extend "lyt-default"}}
 	{{#content "main"}}
 
-		{{! @INSERT: partial }}
+
+{{#with test-case-bp}}
+	{{> c-test-case}}
+{{/with}}
+
+
+{{#with test-case-bp}}
+	{{> c-test-case}}
+{{/with}}
+
+	{{! @INSERTPOINT :: @id: veams }}
 
 	{{/content}}
 {{/extend}}
