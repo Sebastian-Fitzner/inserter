@@ -1,7 +1,7 @@
 {
   "name": "inserter",
   "version": "0.0.1",
-  "description": "Insert pre-defined strings or files into specific sections of other files by using comments.",
+  "description": "Insert pre-defined strings into specific sections of other files by using comments.",
   "main": "index.js",
   "scripts": {
     "test": "test"
