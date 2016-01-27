@@ -2,16 +2,11 @@
 	{{#content "main"}}
 
 
-{{#with test-case-bp}}
-	{{> c-test-case}}
-{{/with}}
+	{{! @INSERTPOINT :: @ref: test-partial, @keep: false }}
 
 
-{{#with test-case-bp}}
-	{{> c-test-case}}
-{{/with}}
-
-	{{! @INSERTPOINT :: @id: veams }}
+	{{! @INSERTPOINT :: @ref: component }}
 
 	{{/content}}
+
 {{/extend}}

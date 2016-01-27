@@ -1,4 +1,4 @@
-Copyright Veams (Sebastian Fitzner), https://veams.org/
+Copyright Sebastian Fitzner,
 
 The following license applies to all parts of this software except as
 documented below:
