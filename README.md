@@ -117,7 +117,7 @@ Define an array value which is the path to your template folder which holds your
 
 Example: `[test/tpl/test-case/usage]`
 
-#### tplFolder
+#### endpointFolders
 
 Type: `Array`
 
@@ -125,7 +125,7 @@ Default value: `false`
 
 Define an array value which is the reference to your output (`INSERTPOINT`) folders. 
 
-Example: `[test/tpl/test-case/usage]`
+Example: `[test/output]`
 
 
 ## Api
