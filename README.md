@@ -18,8 +18,8 @@ Read source files from a provided directory, process its content and output the 
 var Inserter = require('./index');
 
 var insert = new Inserter({
-	tplFolder: ['test/tpl/test-case/usage'],
-	endpointFolders: ['test/output']
+	templates: ['test/tpl/test-case/usage'],
+	endpoints: ['test/output']
 });
 
 insert.render();
@@ -107,25 +107,29 @@ Define a boolean value which can be used to delete all `INSERTPOINT` comments in
 
 Example: `keep: false`
 
-#### tplFolder
+#### templates
 
 Type: `Array`
 
 Default value: `false`
 
-Define an array value which is the path to your template folder which holds your predefined markup snippets.
+Define an array value which is the path to your template folder or file which holds your predefined markup snippets.
 
-Example: `[test/tpl/test-case/usage]`
+Examples: 
+- `[test/tpl/test-case/usage]`
+- `[test/tpl/test-case/usage/README.md]`
 
-#### endpointFolders
+#### endpoints
 
 Type: `Array`
 
 Default value: `false`
 
-Define an array value which is the reference to your output (`INSERTPOINT`) folders. 
+Define an array value which is the reference to your output (`INSERTPOINT`) folders or files. 
 
-Example: `[test/output]`
+Examples: 
+- `[test/output]`
+- `[test/output/pages.hbs]`
 
 
 ## Api
