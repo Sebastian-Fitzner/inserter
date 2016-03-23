@@ -15,6 +15,9 @@ import Slider from './modules/slider/slider';
 import SlideFox from './modules/slide-fox/slide-fox';
 import EqualRows from './modules/equal-rows/equal-rows';
 
+
+import TestCase from './modules/test-case/test-case';
+
 // @INSERTPOINT :: @ref: js-import, @keep: true
 
 "use strict";
@@ -55,63 +58,6 @@ class Core {
 
 	render(context) {
 
-		/**
-		 * Init CTAs
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module="cta"]',
-			module: CTA,
-			context: context
-		});
-
-		/**
-		 * Init Slider
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module="slider"]',
-			module: Slider,
-			context: context
-		});
-
-		/**
-		 * Init Slidefox
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module="slide-fox"]',
-			module: SlideFox,
-			context: context
-		});
-
-		/**
-		 * Init Equal Rows
-		 */
-		Helpers.loadModule({
-			el: '[data-js-module="equal-rows"]',
-			module: EqualRows,
-			render: false,
-			context: context
-		});
-
-
-
-/**
- * Init TestCase
- */
-Helpers.loadModule({
-	el: '[data-js-module="test-case"]',
-	module: TestCase,
-	context: context
-});
-
-
-/**
- * Init TestCase
- */
-Helpers.loadModule({
-	el: '[data-js-module="test-case"]',
-	module: TestCase,
-	context: context
-});
 
 
 /**
