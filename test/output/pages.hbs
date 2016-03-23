@@ -1,6 +1,24 @@
 {{#extend "lyt-default"}}
 	{{#content "main"}}
 
+		{{#with test-case-bp}}
+			{{> c-test-case}}
+		{{/with}}
+
+
+{{#with test-case-bp}}
+	{{> c-test-case}}
+{{/with}}
+
+
+{{#with test-case-bp}}
+	{{> c-test-case}}
+{{/with}}
+
+
+{{#with test-case-bp}}
+	{{> c-test-case}}
+{{/with}}
 
 
 {{#with test-case-bp}}
@@ -10,5 +28,6 @@
 	{{! @INSERTPOINT :: @ref: component }}
 
 	{{/content}}
+
 
 {{/extend}}

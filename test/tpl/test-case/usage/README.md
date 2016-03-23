@@ -34,7 +34,7 @@ import TestCase from './modules/test-case/test-case';
 
 #### Initializing
 ``` js
-/*** @INSERT :: START @type: template, @id: js-init */
+/*** @INSERT :: START @type: template, @id: js-init-v3 */
 /**
  * Init TestCase
  */
