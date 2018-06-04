@@ -17,7 +17,7 @@ This component is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-/* @INSERT :: START @type: template, @id: scss-import */ 
+/* @INSERT :: START @type: template, @tag: scss-import */ 
 @import "components/_c-test-case";
 /* @INSERT :: END */
 

@@ -18,6 +18,12 @@ import EqualRows from './modules/equal-rows/equal-rows';
 
 import TestCase from './modules/test-case/test-case';
 
+
+import TestCase from './modules/test-case/test-case';
+
+import TestCase from './modules/test-case/test-case';
+
+import TestCase from './modules/test-case/test-case';
 // @INSERTPOINT :: @ref: js-import, @keep: true
 
 "use strict";
@@ -69,6 +75,33 @@ Helpers.loadModule({
 	context: context
 });
 
+
+/**
+ * Init TestCase
+ */
+Helpers.loadModule({
+	el: '[data-js-module="test-case"]',
+	module: TestCase,
+	context: context
+});
+
+/**
+ * Init TestCase
+ */
+Helpers.loadModule({
+	el: '[data-js-module="test-case"]',
+	module: TestCase,
+	context: context
+});
+
+/**
+ * Init TestCase
+ */
+Helpers.loadModule({
+	el: '[data-js-module="test-case"]',
+	module: TestCase,
+	context: context
+});
 		// @INSERTPOINT :: @ref: js-init-v3, @keep: true
 
 		/**
